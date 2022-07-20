@@ -167,7 +167,23 @@ hr{
     font-size: 20px;
     margin-left: 30px;
 }
-
+.visibility{
+    display: none;
+}
+.view-button{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.view-button a{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #DD0000;
+}
 /* Mobile Responsive */
 @media only screen and (max-width: 576px) {
     *{
@@ -247,11 +263,7 @@ hr{
         margin: 0%;
         padding: 0%;
     }
-    /* .background{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-} */
+
 .section-1{
     width: 630px;
     height: 300px;
@@ -305,6 +317,9 @@ article{
 .footer-nav{
     font-size: 12px;
     margin-left: -30px;
+}
+.visibility{
+    display: contents;
 }
 }
 
