@@ -185,4 +185,75 @@ hr{
     font-size: 20px;
     margin-left: 30px;
 }
+/* ------
+Mobile
+------- */
+@media only screen and (max-width: 576px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .background{
+        flex-direction: column;
+    }
+    .section-1{
+        width: 450px;
+        height: 1173px;
+        flex-direction: column;
+    }
+    .section-1 h1{
+        text-align: center;
+    }
+    .section-1 p{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .button-head{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .heading-img{
+        height: 500px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    /* button part */
+
+article{
+    flex-direction: column; 
+}
+.themes{
+    grid-template-columns: repeat(1,1fr);
+    padding-top: 80px;
+    margin: auto;
+}
+.theme{
+    width: 400px;
+    height: 250px;
+}
+footer{
+    height: 600px;
+}
+.goal{
+    height: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
+hr{
+    margin-top: -40px;
+}
+.footer-nav{
+    height: 100px;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.footer-nav a{
+    margin-top: 30px;
+    margin-left: -8px;
+    text-align: center;
+}
+.social-nav{
+    margin-top: 200px;
+}
+}
 
